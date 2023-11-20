@@ -25,6 +25,27 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
+## Tests
+
+*Use triple backticks at the beginning and end of your tests to have them formatted as code on your README.*
+
+```
+Describe: firstFunction()
+
+  Test: "It should describe the first piece of logic for a function."
+  Code:
+  const example = "string";
+  firstFunction(example);
+  Expected Output: ["Expected outcome for first piece of logic"]
+
+  Test: "It should describe the second piece of logic for a function."
+  Code:
+  const example2 = ["data"];
+  firstFunction(example2);
+  Expected Output: "Expected outcome for second piece of logic"
+
+```
+
 ## Known Bugs
 
 * _Any known issues_
